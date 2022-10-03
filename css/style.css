@@ -45,7 +45,7 @@ body {
     letter-spacing: 0.1em;
     color: #000;
     text-decoration: none;
-    transition: 0.5s all; <!-- плавная анимация -->
+   transition: 0.5s all;  /* плавная анимация */
 }
 
 .header__list a:hover {
@@ -225,10 +225,15 @@ body {
 }
 
 .contacts__img li {
-    padding-top: 63px;
-    padding-bottom: 158px;
+    margin-top: 63px;
+    margin-bottom: 158px;
     margin-left: 25.1px;
 }
+
+.contacts__img li:hover {
+    transform: rotate(15deg);
+}
+
 
 .form__title {
     padding-top: 120 px;
@@ -254,7 +259,6 @@ body {
     width: 540px;
     height: 160.76px;
     left: 1137px;
-    margin-left: 400px:
 }
 
 input {
@@ -264,7 +268,7 @@ input {
     padding: 10px 20px;
     font-size: 16px;
     width: 362px;
-    background-color: transparent;
+    background-color: transparent; /* прозрачный фон */
 }
 
 .form__btn{
@@ -275,7 +279,7 @@ input {
     font-size: 16px;
     line-height: 26px;
     border: none;
-    cursor: pointer;
+    cursor: pointer; /* рука */
     letter-spacing: 0.1em;
     color: #FFFFFF;
     transition: .3s all;
@@ -309,7 +313,3 @@ textarea {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-
-
-
-
